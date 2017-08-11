@@ -23,7 +23,7 @@ public class Battleship {
 		
 		if (numShips[0] > 0 && numShips[1] == 0) System.out.println("Hooray!!! You Win!");
 		else if (numShips[0] == 0 && numShips[1] > 0) System.out.println("Sorry, you lost, the Computer Won. Try again!");
-		else System.out.println("OOOPS! Something went wrong!");
+		else System.out.println("OOOPS! Something went wrong! Try again!");
 	}		
 	
 	private static void initializeOcean(String[][] ocean) {
